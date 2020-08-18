@@ -7,11 +7,11 @@ citEntry(entry = "manual",
     address = "Grenoble, France",
     note = "version 0.0.0.9000",
     year = "2020",
-    url = "https://github.com/Amirreza-96/simulation-package/tree/master/sdcm",
+    url = "https://github.com/Amirreza-96/sdcm",
     textVersion  = paste("Amirreza, T. J. et al. (2020).",
         "reports: Package to assist in report writing.",
         "version 0.0.0.9000 Grenoble INP. Grenoble, France.",
-        "https://github.com/Amirreza-96/simulation-package/tree/master/sdcm")
+        "https://github.com/Amirreza-96/sdcm")
 )
 
 
