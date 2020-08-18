@@ -1,0 +1,20 @@
+Package: sdcm
+Title: Simulation of Discrete Choice Models
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Amirreza", "Talebijamalabad", email = "amirrezatalebi.ja@gmail.com", role = c("aut","cre")),
+    person("Nikita", "Gusarov", email = "ngusarv@gmail.com", role = c("aut","cph")),
+    person("Iragael", "Joly", email = "ijoly.research@gmail.com", role = c("aut","cph")))
+Description: This package aims to simulate decision making process in real world, based on RUM models. Decision makers' specifications are synthesized and assumed from theoretical distibutions in an uncorrelated form. Four attributes are considered for the individuals, age, salary, habit, and sex. Simulator is fed by SC designs as well as Full Factorial Design or other types. Entering parameters and model specifications, simulation provides a synthetic dataset.
+License:  GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+          QRM, 
+          tidyverse, 
+          magrittr,
+          data.table, 
+          foreach
+year: 2020
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
